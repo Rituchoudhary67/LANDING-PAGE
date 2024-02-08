@@ -1,0 +1,66 @@
+/* * is universal selector it will select all html code  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* header section  */
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(./imges/earing.webp);
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: white;
+    font-family: 'Croissant One', cursive;
+}
+header > ul {
+    /* border: 5px solid red; */
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+.gold {
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    /* background-color: aqua; */
+    font-size:4rem;
+    color: goldenrod;
+    font-weight: 500;
+}
+.search {
+    height: 30px;
+    width: 200px;
+    /* padding: 10px; */
+    margin-top: 35px;
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+}
+.search:hover {
+    background-color: rgb(241, 240, 240);
+}
+header ul > li {
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5em;
+    color: goldenrod;
+    font-weight: 700;
+    background-color:whitesmoke;
+}
+header ul > li:hover, .second-sec h2:hover,.second-items p:hover {
+    color: black;
+    cursor: pointer;
+    background-color: wheat;
+    border-radius: 10px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+/* header section end */
