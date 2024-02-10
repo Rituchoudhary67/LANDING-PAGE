@@ -16,7 +16,7 @@ header {
     flex-wrap: wrap;
     justify-content:space-between;
     background-color: white;
-    font-family: 'Croissant One', cursive;
+    font-family: sans-serif;
 }
 header > ul {
     /* border: 5px solid red; */
@@ -33,25 +33,35 @@ header > ul {
     color: goldenrod;
     font-weight: 500;
 }
-.search {
+.search-con {
+    /* border:2px solid red; */
+    background-color: white;
     height: 30px;
     width: 200px;
-    /* padding: 10px; */
-    margin-top: 35px;
     border-radius: 10px;
-    background-color: white;
+    margin-top: 35px;
+   box-sizing: border-box;
+}
+.search {
+    /* border: 3px solid black; */
+    /* padding: 10px; */
+    margin-top:5px;
+    margin-left:5px;
+    
     color: gray;
 }
-.search:hover {
+.search-con:hover {
     background-color: rgb(241, 240, 240);
+    box-shadow: 3px 5px 4px rgb(82, 80, 80);
+    cursor: pointer;
 }
 header ul > li {
     height: 50px;
     padding: 10px;
     margin: 10px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: goldenrod;
-    font-weight: 700;
+    font-weight: 600;
     background-color:whitesmoke;
 }
 header ul > li:hover, .second-sec h2:hover,.second-items p:hover {
